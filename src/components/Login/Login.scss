@@ -1,0 +1,217 @@
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .LoginPage-wrap {
+    margin: 100px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 540px;
+    .loginLogo {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      height: 5em;
+      h2 {
+        font-family: "Buri", serif;
+        font-size: 33.6px;
+      }
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      margin: 1em 0;
+      li {
+        width: 50%;
+        height: 45px;
+        border-bottom-color: #999;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          font-size: 14px;
+          font-family: "Noto Sans KR";
+        }
+      }
+      li:hover {
+        border: 1px solid #999;
+        border-bottom-color: #fff;
+        background-color: #fff;
+        transition: ease-in-out 0.3s;
+      }
+      .trueli {
+        border: 1px solid #999;
+        border-bottom-color: #fff;
+        background-color: #fff;
+        transition: ease-in-out 0.3s;
+        pointer-events: none;
+      }
+      .falseli {
+        border: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        border-bottom-color: #999;
+        background-color: #f6f6f6;
+        color: #727272;
+        transition: ease-in-out 0.3s;
+      }
+    }
+    .memberInput,
+    .nonmemberInput {
+      height: 225px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      input {
+        padding: 1em;
+        width: 100%;
+        height: 50px;
+        border: 1px solid #ccc;
+        outline: none;
+      }
+      ::placeholder {
+        font-size: 14px;
+        color: #ccc;
+      }
+      .hiddenDiv {
+        width: 100%;
+      }
+      .idAdd,
+      .passwordAdd,
+      .orderNumAdd,
+      .orderTelAdd {
+        border-bottom: #c5443c 3px solid;
+      }
+      .nonidAdd,
+      .nonpasswordAdd,
+      .nonorderNumAdd,
+      .nonorderTelAdd {
+        margin-bottom: 0.7em;
+      }
+      .idRedOn,
+      .passwordRedOn,
+      .orderNumRedOn {
+        display: "";
+        margin-top: -5px;
+        height: 3em;
+        display: flex;
+        align-items: center;
+        span {
+          color: #c5443c;
+          font-size: 13px;
+        }
+      }
+      .orderTelRedOn {
+        display: "";
+        display: flex;
+        flex-direction: column;
+        height: 4em;
+        align-items: flex-start;
+        justify-content: center;
+        span {
+          margin: 0 0 0.5em 0;
+          color: #c5443c;
+          font-size: 13px;
+        }
+      }
+      .idRedOff,
+      .passwordRedOff,
+      .orderNumRedOff,
+      .orderTelRedOff {
+        display: none;
+      }
+      button {
+        width: 100%;
+        color: #fff;
+        border: #74824c 1px solid;
+        background-color: #74824c;
+        cursor: pointer;
+        font-size: 16px;
+        height: 55px;
+        transition: ease-in-out 0.3s;
+      }
+      button:hover {
+        background-color: #5b7005;
+        order: #5b7005 1px solid;
+        transition: ease-in-out 0.3s;
+      }
+    }
+    .divFalse {
+      display: none;
+    }
+    .divTrue {
+      display: "";
+    }
+    .hr {
+      width: 100%;
+      hr {
+        border: 0.5px solid rgba(181, 181, 181, 0.3);
+        margin: 1em 0;
+      }
+    }
+    .directButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      i {
+        margin: 0 40px;
+        width: 0.5px;
+        height: 12px;
+        background-color: #ccc;
+        vertical-align: middle;
+      }
+      a {
+        color: #727272;
+        font-size: 13px;
+        font-family: "Noto Sans KR";
+      }
+    }
+    .snsButton {
+      margin: 100px 0 50px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 13em;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 55px;
+        margin: 0.4em 0;
+        width: 100%;
+        cursor: pointer;
+        img {
+          margin-left: 20px;
+          height: 38px;
+        }
+        span {
+          font-size: 14px;
+        }
+        p {
+          width: 2em;
+        }
+      }
+      .kakaoButton {
+        color: #381e1f;
+        background-color: #fae100;
+      }
+      .naverButton {
+        color: #ffffff;
+        background-color: #26cc09;
+      }
+      .facebookButton {
+        color: #ffffff;
+        background-color: #3b5998;
+      }
+    }
+  }
+}
