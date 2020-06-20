@@ -1,7 +1,11 @@
 ## 프로젝트 :  https://www.osulloc.com/  Clone Coding
 
-- 원본 레파지토리: https://github.com/wecode-bootcamp-korea/aboutteatime-frontend 
+- **원본 레파지토리: https://github.com/wecode-bootcamp-korea/aboutteatime-frontend** 
+
+  
+
 - 코딩 1개월차 WeCode 8기 수강생들의 2주 클론 프로젝트입니다.
+
 - 프론트엔드 3명과 백엔드 2명이 팀을 이뤄 개발했습니다.
 
 <br>
