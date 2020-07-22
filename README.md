@@ -1,13 +1,12 @@
 **프로젝트 개요**
 
-**velog:** [https://velog.io/@jongsunpark88/wecode-1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8](https://velog.io/@jongsunpark88/wecode-1차-프로젝트) 
+**velog:** https://velog.io/@jongsunpark88/projectW1
 
 <br>
 
 **프로젝트를 마치며**
 
-**velog:** [https://velog.io/@jongsunpark88/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EB%A7%88%EC%B9%98%EB%A9%B0](https://velog.io/@jongsunpark88/1차-프로젝트를-마치며) 
-
+**velog:** https://velog.io/@jongsunpark88/projectW1me
 <br>
 
 <br>
