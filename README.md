@@ -53,5 +53,5 @@
 
 ## 구현 화면
 
-https://youtu.be/vfKG_wyZkGc
+https://www.youtube.com/watch?v=vfKG_wyZkGc
 
