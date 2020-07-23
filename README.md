@@ -7,8 +7,9 @@
 **프로젝트를 마치며**
 
 **velog:** https://velog.io/@jongsunpark88/projectW1me
-<br>
 
+<br>
+<img width="1280" alt="osul" src="https://user-images.githubusercontent.com/50945715/88271656-71c40a80-cd12-11ea-8206-a825222f6d9f.png">
 <br>
 
 ## 프로젝트 :  https://www.osulloc.com/  Clone Coding
